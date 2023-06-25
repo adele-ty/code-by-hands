@@ -2,7 +2,7 @@
 Object.create() 方法以一个现有对象作为原型，创建一个新对象。  
 
 ```js
-function create(obj) {
+function Create(obj) {
     function F() {}
     F.prototype = obj
     return new F()
